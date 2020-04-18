@@ -47,7 +47,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             style: TextStyle(
                                 fontSize: 80.0,
                                 fontWeight: FontWeight.bold,
-                                color: Colors.green)),
+                                color: Colors.purpleAccent)),
                       )
                     ],
                   ),
@@ -61,7 +61,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         children: <Widget>[
                           TextFormField(
                             validator: (value) =>
-                                value.isEmpty ? "Enter an Emaail" : null,
+                                value.isEmpty ? "Enter an Email" : null,
                             onChanged: (value) {
                               setState(() => email = value);
                             },
@@ -72,8 +72,8 @@ class _LoginScreenState extends State<LoginScreen> {
                                     fontWeight: FontWeight.bold,
                                     color: Colors.grey),
                                 focusedBorder: UnderlineInputBorder(
-                                    borderSide:
-                                        BorderSide(color: Colors.green))),
+                                    borderSide: BorderSide(
+                                        color: Colors.purpleAccent))),
                           ),
                           SizedBox(height: 10.0),
                           TextFormField(
@@ -91,7 +91,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                     color: Colors.grey),
                                 focusedBorder: UnderlineInputBorder(
                                     borderSide:
-                                        BorderSide(color: Colors.green))),
+                                        BorderSide(color: Colors.purple))),
                             obscureText: true,
                           ),
                           // SizedBox(height: 5.0), //-----------------
@@ -102,7 +102,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               child: Text(
                                 'Forgot Password',
                                 style: TextStyle(
-                                    color: Colors.green,
+                                    color: Colors.purpleAccent,
                                     fontWeight: FontWeight.bold,
                                     fontFamily: 'Montserrat',
                                     decoration: TextDecoration.underline),
@@ -146,8 +146,8 @@ class _LoginScreenState extends State<LoginScreen> {
                               },
                               child: Material(
                                 borderRadius: BorderRadius.circular(20.0),
-                                shadowColor: Colors.green[900],
-                                color: Colors.green,
+                                shadowColor: Colors.purple[900],
+                                color: Colors.deepPurpleAccent,
                                 elevation: 7.0,
                                 child: Center(
                                   child: Text(

@@ -54,7 +54,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 style: TextStyle(
                                     fontSize: 80.0,
                                     fontWeight: FontWeight.bold,
-                                    color: Colors.green),
+                                    color: Colors.purpleAccent),
                               ),
                             )
                           ],
@@ -89,7 +89,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
                                     focusedBorder: UnderlineInputBorder(
                                         borderSide:
-                                            BorderSide(color: Colors.green))),
+                                            BorderSide(color: Colors.purpleAccent))),
                               ),
                               SizedBox(height: 5.0),
                               TextFormField(
@@ -110,7 +110,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                         color: Colors.grey),
                                     focusedBorder: UnderlineInputBorder(
                                         borderSide:
-                                            BorderSide(color: Colors.green))),
+                                            BorderSide(color: Colors.purpleAccent))),
                                 // this is to hide password
                                 obscureText: true,
                               ),
@@ -132,7 +132,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                         color: Colors.grey),
                                     focusedBorder: UnderlineInputBorder(
                                         borderSide:
-                                            BorderSide(color: Colors.green))),
+                                            BorderSide(color: Colors.purpleAccent))),
                               ),
                               SizedBox(height: 50.0),
                               Container(
@@ -166,8 +166,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                   },
                                   child: Material(
                                     borderRadius: BorderRadius.circular(20.0),
-                                    shadowColor: Colors.greenAccent,
-                                    color: Colors.green,
+                                    shadowColor: Colors.purpleAccent,
+                                    color: Colors.deepPurpleAccent,
                                     elevation: 7.0,
                                     child: Center(
                                       child: Text(

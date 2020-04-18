@@ -1,6 +1,8 @@
 # login_screen
 
-A new Flutter project.
+A Flutter open source project showing you can implement on any app that requires authentication such as sign in and sign up. And these codes can easily be changed. Backend is setup with firebase Auth, feel free too use.
+
+![Peek through](http://g.recordit.co/VfMtuXn2y2.gif)
 
 ## Getting Started
 

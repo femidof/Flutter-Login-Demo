@@ -2,7 +2,7 @@
 
 A Flutter open source project showing you can implement on any app that requires authentication such as sign in and sign up. And these codes can easily be changed. Backend is setup with firebase Auth, feel free too use.
 
-Place your google-services.json file in android/app directory and you are good to go
+Place/Replace google-services.json file in android/app directory and you are good to go
 
 ![Peek through](http://g.recordit.co/VfMtuXn2y2.gif)
 ![Peek through](http://g.recordit.co/1wKw1MK6fC.gif)
